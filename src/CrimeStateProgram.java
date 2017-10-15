@@ -16,9 +16,6 @@ public class CrimeStateProgram {
     long startTime;
     long endTime = 0;
 
-    for (String s: args) {
-      System.out.println(s);
-    }
     try {
       inputStream = new BufferedReader(new FileReader(args[0]));
       List<UsCrimeClass> crimeObjects = new ArrayList<>();
